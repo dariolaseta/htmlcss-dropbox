@@ -61,7 +61,7 @@ main section.jumbotron div.hero{
 }
 
 .jumbotron{
-    height: 800px;
+    height: 700px;
     margin-top: 20px;
     background-color: #b4d0e7;
 }
@@ -72,13 +72,23 @@ main section.jumbotron div.hero{
 }
 
 .container-left{
-    width: 40%;
-    height: 300px;
-    background-color: blue;
+    width: 30%;
 }
 
 .container-right{
-    width: 60%;
-    height: 300px;
-    background-color: pink;
+    width: 70%;
+}
+
+div.container-right img{
+    width: 1000px;
+}
+
+div.container-left button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.container-left i{
+    margin-top: 150px;
+    font-size: 2.5rem;
 }
