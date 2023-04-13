@@ -67,17 +67,18 @@ main section.jumbotron div.hero{
 }
 
 .container{
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-left{
     width: 40%;
+    height: 300px;
+    background-color: blue;
 }
 
 .container-right{
     width: 60%;
-}
-
-div.container-right img{
-    width: 1000px;
+    height: 300px;
+    background-color: pink;
 }
