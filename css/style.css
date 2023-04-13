@@ -7,3 +7,45 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+header{
+    background-color: white;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+header section.left-section ul{
+    justify-content: space-evenly;
+    width: 500px;
+    text-align: left;
+}
+
+header section.right-section ul{
+    justify-content: space-evenly;
+    width: 500px;
+    text-align: right;
+}
+
+.left-section,
+.right-section{
+    margin-top: 30px;
+}
+
+.blue-button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #0061ff;
+    color: white;
+}
