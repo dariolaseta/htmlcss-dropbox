@@ -19,6 +19,12 @@ ul{
 
 a{
     text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 4rem;
+    padding-top: 60px;
 }
 
 .flex{
@@ -38,6 +44,10 @@ header section.right-section ul{
     text-align: right;
 }
 
+main section.jumbotron div.hero{
+    width: 50%;
+}
+
 .left-section,
 .right-section{
     margin-top: 30px;
@@ -48,4 +58,26 @@ header section.right-section ul{
     border: none;
     background-color: #0061ff;
     color: white;
+}
+
+.jumbotron{
+    height: 800px;
+    margin-top: 20px;
+    background-color: #b4d0e7;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.container-left{
+    width: 40%;
+}
+
+.container-right{
+    width: 60%;
+}
+
+div.container-right img{
+    width: 1000px;
 }
