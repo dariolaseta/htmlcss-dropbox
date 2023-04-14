@@ -33,6 +33,12 @@ h2{
     margin-bottom: 50px;
 }
 
+footer{
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
 header section.left-section ul{
     justify-content: space-evenly;
     width: 500px;
@@ -97,6 +103,21 @@ section.faq i{
     top: 0;
 }
 
+div.footer-box p{
+    font-size: 1.5rem;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+div.footer-box li{
+    margin-top: 15px;
+}
+
+div.footer-box a{
+    text-decoration: none;
+    color: white;
+}
+
 .border-top{
     border-top: 2px solid black;
 }
@@ -124,7 +145,7 @@ section.faq i{
     background-color: #b4d0e7;
 }
 
-.container-jumbo{
+.top-bottom-container{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -194,4 +215,13 @@ section.faq i{
 
 div.teams img{
     width: 70%;
+}
+
+.footer-box{
+    width: calc(100% / 5);
+    padding: 20px;
+}
+
+.lang{
+    margin-top: 100px;
 }
