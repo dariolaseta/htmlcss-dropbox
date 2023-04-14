@@ -44,16 +44,18 @@ main section.jumbotron div.hero{
     width: 50%;
 }
 
-div.container-right img{
+/* TODO: RIMUOVERE ALTEZZE FISSE */
+
+div.container-big img{
     width: 900px;
 }
 
-div.container-left button{
+div.container-small button{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-div.container-left i{
+div.container-small i{
     margin-top: 150px;
     font-size: 2.5rem;
 }
@@ -103,16 +105,22 @@ div.columns{
     margin: 0 auto;
 }
 
-.container-left{
+.container-small{
     width: 30%;
+    height: 500px;
+    background-color: red;
 }
 
-.container-right{
+.container-big{
     width: 70%;
+    height: 500px;
+    border: 2px dotted black;
+    background-color: red;
 }
 
 .container{
     max-width: 1000px;
+    height: 1350px;
     margin: 0 auto;
     background-color: blue;
 }
@@ -121,6 +129,14 @@ div.columns{
     margin-top: 40px;
     height: 800px;
     width: calc(90%/3);
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
+    background-color: red;
+}
+
+.rectangular-column{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    border: 1px solid lightgrey;
     background-color: red;
 }
