@@ -33,6 +33,11 @@ h2{
     margin-bottom: 50px;
 }
 
+h3{
+    font-size: 1.5rem;
+    padding: 1.7rem;
+}
+
 footer{
     background-color: black;
     height: 500px;
@@ -83,18 +88,73 @@ div.columns{
     justify-content: space-between;
 }
 
+div.column p.user-plan-top{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0;
+}
+
+div.column :nth-child(3){
+    font-weight: bold;
+    padding-left: 1.7rem;
+}
+
+div.column :nth-child(4){
+    color: grey;
+    padding: .3rem 1.7rem 2rem;
+}
+
+div.column :nth-child(10){
+    font-weight: bold;
+    padding-top: 5rem;
+}
+
+div.column :nth-child(15){
+    margin-bottom: 3rem;
+}
+
+div.column button{
+    margin: 1.7rem;
+    font-size: 1rem;
+    padding: 10px 30px;
+}
+
+div.rectangular-column p.user-plan-top{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0;
+}
+
+div.rectangular-column :nth-child(3){
+    padding: 0 1.7rem 0;
+    font-weight: bold;
+}
+
+div.rectangular-column :nth-child(4){
+    padding: 4rem 1.7rem 0;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+div.rectangular-column button{
+    position: absolute;
+    right: 25px;
+    top: 70px;
+}
+
 section.dropbox-business div.bottom-text h2{
     width: 70%;
     margin-top: 150px;
 }
 
 section.faq p{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid lightgrey;
     padding: 35px 0;
 }
 
 section.faq{
     position: relative;
+    margin-bottom: 200px;
 }
 
 section.faq i{
@@ -118,13 +178,25 @@ div.footer-box a{
     color: white;
 }
 
+div.footer-box a:hover{
+    text-decoration: underline;
+}
+
 .border-top{
-    border-top: 2px solid black;
+    border-top: 2px solid lightgrey;
 }
 
 .flex{
     display: flex;
     flex-direction: row;
+}
+
+.padding{
+    padding: 1.5rem 1.7rem 0;
+}
+
+.fa-check{
+    color: #0061ff;
 }
 
 .left-section,
@@ -165,25 +237,20 @@ div.footer-box a{
 
 .container{
     max-width: 1000px;
-    height: 1350px;
     margin: 0 auto;
-    background-color: blue;
 }
 
 .column{
     margin-top: 40px;
-    height: 800px;
     width: calc(90%/3);
     border: 1px solid lightgrey;
-    background-color: red;
 }
 
 .rectangular-column{
     width: 100%;
-    height: 300px;
     margin-top: 50px;
+    position: relative;
     border: 1px solid lightgrey;
-    background-color: red;
 }
 
 .box{
