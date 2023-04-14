@@ -62,11 +62,19 @@ main section.jumbotron div.hero{
 
 /* TODO: RIMUOVERE ALTEZZE FISSE */
 
-div.container-big img{
+section.jumbotron div.container-big img{
     width: 900px;
 }
 
-div.container-small button{
+section.jumbotron div.container-big{
+    width: 70%;
+}
+
+section.jumbotron div.container-small{
+    width: 30%;
+}
+
+section.jumbotron div.container-small button{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -140,6 +148,23 @@ div.rectangular-column button{
     position: absolute;
     right: 25px;
     top: 70px;
+}
+
+section.find-partner div.container-big img{
+    width: 90%;
+}
+
+section.find-partner div.container-small p{
+    padding: 0 1.7rem;
+}
+
+section.find-partner div.container-small button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-size: 1rem;
+    background-color: white;
+    margin-left: 1.7rem;
+    margin-top: 1.7rem;
 }
 
 section.dropbox-business div.bottom-text h2{
@@ -223,16 +248,11 @@ div.footer-box a:hover{
 }
 
 .container-small{
-    width: 30%;
-    height: 500px;
-    background-color: red;
+    width: 40%;
 }
 
 .container-big{
-    width: 70%;
-    height: 500px;
-    border: 2px dotted black;
-    background-color: red;
+    width: 60%;
 }
 
 .container{
