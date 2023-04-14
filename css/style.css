@@ -28,11 +28,6 @@ h1{
     margin-bottom: 30px;
 }
 
-.flex{
-    display: flex;
-    flex-direction: row;
-}
-
 header section.left-section ul{
     justify-content: space-evenly;
     width: 500px;
@@ -47,6 +42,38 @@ header section.right-section ul{
 
 main section.jumbotron div.hero{
     width: 50%;
+}
+
+div.container-right img{
+    width: 900px;
+}
+
+div.container-left button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.container-left i{
+    margin-top: 150px;
+    font-size: 2.5rem;
+}
+
+section.container{
+    margin-top: 150px;
+}
+
+div.business-text h2{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+div.input label{
+    margin-right: 50px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
 }
 
 .left-section,
@@ -80,27 +107,9 @@ main section.jumbotron div.hero{
     width: 70%;
 }
 
-div.container-right img{
-    width: 900px;
-}
-
-div.container-left button{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-div.container-left i{
-    margin-top: 150px;
-    font-size: 2.5rem;
-}
-
 .container{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: blue;
     height: 900px;
-}
-
-div.container{
-    margin-top: 150px;
 }
