@@ -82,6 +82,25 @@ section.dropbox-business div.bottom-text h2{
     margin-top: 150px;
 }
 
+section.faq p{
+    border-bottom: 2px solid black;
+    padding: 35px 0;
+}
+
+section.faq{
+    position: relative;
+}
+
+section.faq i{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.border-top{
+    border-top: 2px solid black;
+}
+
 .flex{
     display: flex;
     flex-direction: row;
