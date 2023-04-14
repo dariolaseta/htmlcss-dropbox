@@ -71,6 +71,10 @@ div.input label{
     margin-right: 50px;
 }
 
+div.columns{
+    justify-content: space-between;
+}
+
 .flex{
     display: flex;
     flex-direction: row;
@@ -111,5 +115,12 @@ div.input label{
     max-width: 1000px;
     margin: 0 auto;
     background-color: blue;
-    height: 900px;
+}
+
+.column{
+    margin-top: 40px;
+    height: 800px;
+    width: calc(90%/3);
+    border: 2px solid lightgrey;
+    background-color: red;
 }
