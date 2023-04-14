@@ -17,7 +17,7 @@ ul{
     list-style-type: none;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
 }
@@ -75,6 +75,11 @@ div.input label{
 
 div.columns{
     justify-content: space-between;
+}
+
+section.dropbox-business div.bottom-text h2{
+    width: 70%;
+    margin-top: 150px;
 }
 
 .flex{
@@ -148,4 +153,26 @@ div.columns{
     height: 300px;
     border: 3px dotted black;
     background-color: red;
+}
+
+.business-teams{
+    background-color: #b4d0e7;
+    position: relative;
+}
+
+.teams-row,
+.center-row{
+    width: calc(100% / 3);
+    height: calc((100vw  / 3));
+}
+
+.teams{
+    width: calc(100vw / 6);
+    min-height: calc(100vw / 6);
+    background-color: red;
+    border: 2px dotted black;
+}
+
+div.teams img{
+    width: 70%;
 }
