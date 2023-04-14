@@ -25,6 +25,7 @@ a{
 h1{
     font-size: 4rem;
     padding-top: 60px;
+    margin-bottom: 30px;
 }
 
 .flex{
@@ -66,7 +67,7 @@ main section.jumbotron div.hero{
     background-color: #b4d0e7;
 }
 
-.container{
+.container-jumbo{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -80,7 +81,7 @@ main section.jumbotron div.hero{
 }
 
 div.container-right img{
-    width: 1000px;
+    width: 900px;
 }
 
 div.container-left button{
@@ -91,4 +92,15 @@ div.container-left button{
 div.container-left i{
     margin-top: 150px;
     font-size: 2.5rem;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: blue;
+    height: 900px;
+}
+
+div.container{
+    margin-top: 150px;
 }
