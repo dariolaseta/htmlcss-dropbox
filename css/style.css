@@ -196,10 +196,6 @@ div.green{
     border: 20px solid #d1e9cd;
 }
 
-div.bottom-business-card h2{
-    text-align: left;
-}
-
 div.bottom-business-card button{
     border: none;
     background-color: white;
@@ -344,6 +340,7 @@ div.footer-box a:hover{
 }
 
 .bottom-business-card{
+    margin: 100px auto 50px;
     background-color: #b4d0e7;
     color: #61082b;
 }
