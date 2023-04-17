@@ -60,8 +60,6 @@ main section.jumbotron div.hero{
     width: 50%;
 }
 
-/* TODO: RIMUOVERE ALTEZZE FISSE */
-
 section.jumbotron div.container-big img{
     width: 900px;
 }
@@ -181,6 +179,12 @@ div.box h3{
     padding-left: 0;
 }
 
+div.business-card img{
+    width: 60%;
+    filter: invert(1);
+}
+
+
 section.faq p{
     border-bottom: 2px solid lightgrey;
     padding: 35px 0;
@@ -225,8 +229,16 @@ div.footer-box a:hover{
     flex-direction: row;
 }
 
+.flex-between{
+    justify-content: space-between;
+}
+
 .padding{
     padding: 1.5rem 1.7rem 0;
+}
+
+.margin-auto{
+    margin: auto;
 }
 
 .fa-check{
@@ -290,24 +302,19 @@ div.footer-box a:hover{
 
 .business-teams{
     background-color: #b4d0e7;
-    position: relative;
 }
 
-.teams-row,
-.center-row{
-    width: calc(100% / 3);
-    height: calc((100vw  / 3));
+.left-business-box, .right-business-box, .box-center{
+    width: calc(100vw  / 3);
+    height: calc(100vw  / 3);
+    border: 3px solid red;
+    flex-wrap: wrap;
 }
 
-.teams{
-    width: calc(100vw / 6);
-    min-height: calc(100vw / 6);
-    background-color: red;
-    border: 2px dotted black;
-}
-
-div.teams img{
-    width: 70%;
+.business-card{
+    width: calc(100%  / 2);
+    height: calc(100%  / 2);
+    border: 3px solid red;
 }
 
 .footer-box{
@@ -317,4 +324,32 @@ div.teams img{
 
 .lang{
     margin-top: 100px;
+}
+
+.green{
+    background-color: #a2d39b;
+}
+
+.darker-red{
+    background-color: #61082b;
+}
+
+.light-blue{
+    background-color: #0093ce;
+}
+
+.red{
+    background-color: #ff1c1c;
+}
+
+.dark-red{
+    background-color: #d5001f;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: #ffd830;
 }
