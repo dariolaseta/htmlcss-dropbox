@@ -30,7 +30,7 @@ header nav a{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
     padding-top: 60px;
     margin-bottom: 30px;
 }
@@ -49,10 +49,6 @@ footer{
     background-color: black;
     height: 500px;
     color: white;
-}
-
-main section.jumbotron div.hero{
-    width: 50%;
 }
 
 section.jumbotron div.container-big img{
@@ -285,7 +281,7 @@ div.footer-box a:hover{
 }
 
 .jumbotron{
-    height: 700px;
+    height: 750px;
     margin-top: 20px;
     background-color: #b4d0e7;
 }
