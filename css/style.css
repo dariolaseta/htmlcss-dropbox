@@ -8,16 +8,23 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+header nav{
     background-color: white;
     justify-content: space-between;
+    margin-top: 20px;
+}
+
+header ul{
+    justify-content: space-evenly;
+    width: 500px;
+    height: 100%;
 }
 
 ul{
     list-style-type: none;
 }
 
-header a{
+header nav a{
     text-decoration: none;
     color: black;
 }
@@ -42,18 +49,6 @@ footer{
     background-color: black;
     height: 500px;
     color: white;
-}
-
-header section.left-section ul{
-    justify-content: space-evenly;
-    width: 500px;
-    text-align: left;
-}
-
-header section.right-section ul{
-    justify-content: space-evenly;
-    width: 500px;
-    text-align: right;
 }
 
 main section.jumbotron div.hero{
